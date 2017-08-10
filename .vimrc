@@ -15,6 +15,10 @@ Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
 
+Plugin 'hashivim/vim-terraform'
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
+
 " Themes
 Plugin 'chriskempson/base16-vim' " Base16 Theme
 let base16colorspace=256
