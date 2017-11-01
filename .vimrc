@@ -11,9 +11,10 @@ Plugin 'Raimondi/delimitMate' " Auto-closing parantheses, brackets, etc...
 Plugin 'godlygeek/tabular'     " Tabuling
 Plugin 'pearofducks/ansible-vim' " Ansible syntax
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
+
+Plugin 'fatih/vim-go'
+let g:go_fmt_command = "goimports"
 
 Plugin 'hashivim/vim-terraform'
 let g:terraform_align=1
